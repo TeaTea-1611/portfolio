@@ -1,4 +1,4 @@
-import { Hero } from "~/components/hero";
+import { Experience } from "~/components/experience";
 import type { Route } from "./+types/home";
 
 export function meta({}: Route.MetaArgs) {
@@ -9,5 +9,5 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <Hero />;
+  return <Experience />;
 }
